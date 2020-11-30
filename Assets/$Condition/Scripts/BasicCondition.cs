@@ -43,16 +43,16 @@
         [ContextMenu("BasicNestedIf")]
         void ConditionNestedIf()
         {
-            if (score != 0)
+            if (score != 10)
             {
                 // Nested //
-                if (score > 0)
-                    showScoreTxt.text = $"Plus: {score}";
+                if (score > 5)
+                    showScoreTxt.text = $"More: {score}";
                 else
-                    showScoreTxt.text = $"Minus: {score}";
+                    showScoreTxt.text = $"Less: {score}";
             }
             else
-                showScoreTxt.text = $"Zero: {score}";
+                showScoreTxt.text = $"Ten: {score}";
         }
         [ContextMenu("BasicSwichCase")]
         void ConditionSwichCase()

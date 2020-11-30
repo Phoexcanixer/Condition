@@ -174,7 +174,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Zero
+  m_Text: Fail
 --- !u!222 &91309290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c0edfcfd6ca60b45ba68b1e18faf26e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 100
+  score: 20
   showScoreTxt: {fileID: 91309289}
 --- !u!114 &142121203
 MonoBehaviour:
@@ -249,9 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b5c13f07b8afa438aeaf1ad8a2ad72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 100
+  score: 10
   showScoreTxt: {fileID: 91309289}
-  grid: {x: 0, y: 0, z: 0, w: 0}
+  grid: {x: 1, y: 1, z: 0, w: 0}
 --- !u!114 &142121204
 MonoBehaviour:
   m_ObjectHideFlags: 0
